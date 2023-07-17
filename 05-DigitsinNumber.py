@@ -4,20 +4,20 @@
 # Method 1 
 # This method not good for number like 8000,8468
 
-# def factorial(N):     
-#         if N == 0 or N == 1: 
-#             res=1
-#             return res
-#         else:
-#             res=N * factorial(N - 1) 
-#             return res
-# x=factorial(12)
-# print(f"The Factorial of Above Number is {x}")
-# result=0
-# while x !=0:
-#     result=result+1
-#     x=x//10
-# print(f"The Number of digits in the given Number is {result}")
+def factorial(N):     
+        if N == 0 or N == 1: 
+            res=1
+            return res
+        else:
+            res=N * factorial(N - 1) 
+            return res
+x=factorial(12)
+print(f"The Factorial of Above Number is {x}")
+result=0
+while x !=0:
+    result=result+1
+    x=x//10
+print(f"The Number of digits in the given Number is {result}")
 
 # Method 2 Using Log
 import math
