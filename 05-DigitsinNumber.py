@@ -2,7 +2,7 @@
 # Factorial is defined as, factorial(n) = 1*2*3*4……..*N and factorial(0) = 1
 
 # Method 1 
-# This method not good for number like 8000,8468
+# This method not good for numbers like 8000,8468
 
 def factorial(N):     
         if N == 0 or N == 1: 
