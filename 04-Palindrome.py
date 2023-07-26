@@ -1,4 +1,6 @@
 
+#GFG METHOD
+
 def checkPalindrome(n):
     rev = 0
     temp = n
@@ -13,3 +15,11 @@ def checkPalindrome(n):
 
 result = checkPalindrome(7)
 print(result)
+
+#LEETCODE
+
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        temp = str(x)
+        rev = temp[::-1]
+        return rev==temp
