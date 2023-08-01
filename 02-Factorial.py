@@ -17,3 +17,16 @@ print(result)
 # Output: 120
 
 
+# NEW METHOD WITH FOR LOOP
+
+def factorial1(N):
+    if N==0 and N==1:
+        return 1
+    result=1
+    for i in range(2,N+1):
+        result=result*i
+    return result
+
+
+result1 = factorial1(6)
+print(result1) 
