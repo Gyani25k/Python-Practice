@@ -4,3 +4,5 @@ class Solution:
         alphabet = set(string.ascii_lowercase)
     
         letters_in_sentence = set(sentence.lower())
+        return set(alphabet) <= letters_in_sentence
+
